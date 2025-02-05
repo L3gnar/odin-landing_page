@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: auto;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    gap: 16px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero {
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.info-box {
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+/*blockquote {
+}*/
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 40px 60px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.cta button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+.hero-image {
+    background-color: gray;
+    height: 400px;
+    width: 250px;
+}
